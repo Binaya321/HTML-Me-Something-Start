@@ -1,1 +1,55 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    padding: 20px;
+}
+#mainHeading {
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+.funParagraph {
+    color: green;
+}
+#img1 {
+    width:640px;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#video1 {
+    width:640px;
+    height:600px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#video3 {
+    width:840px;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#capt1,#capt2,#capt3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-top: 0px;
+}
+#conclusion {
+    color: red;
+    background-color: white;
+    font-size: large;
+    text-decoration: underline;
+    font-style: italic;
+}
+
